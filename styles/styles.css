@@ -494,6 +494,51 @@ header .headerContent .contentContainer {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.categoryGallery .items {
+  width: 40%;
+  background-color: tomato;
+  padding: 45px;
+  margin: 50px 25px 25px;
+  border-radius: 10%;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.categoryGallery .items img {
+  max-width: 100%;
+  border-radius: 10%;
+  margin: 0 auto 20px;
+}
+.categoryGallery .items:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .items:focus {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .itemOne {
+  background-color: #ffd698;
+}
+.categoryGallery .itemTwo {
+  background-color: #f4fcff;
+}
+.categoryGallery .itemThree {
+  background-color: #f8fbf3;
+}
+.categoryGallery .itemFour {
+  background-color: #fff5f5;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;
