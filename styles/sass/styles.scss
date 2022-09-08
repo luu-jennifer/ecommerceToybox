@@ -1,8 +1,9 @@
 // partials
+@use "./partials/variables" as *;
 @use "./partials/setup";
 @use "./partials/typography";
-@use "./partials/variables" as *;
 @use "./partials/baseStyles";
+@use "./partials/nav";
 
 
 
