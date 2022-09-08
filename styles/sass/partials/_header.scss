@@ -1,2 +1,27 @@
-@use "./variables" as *;
+@use "variables" as *;
 
+header {
+  background-color: $tertiaryColour;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 90px;
+
+  .headerImgContainer {
+    width: 45%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .headerContent {
+    width: 55%;
+    color: $primaryColour;
+
+    .contentContainer {
+      margin: 0 auto;
+      width: 65%;
+    }
+  }
+}
